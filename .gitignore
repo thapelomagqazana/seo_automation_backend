@@ -1,0 +1,38 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore the Django database file
+db.sqlite3
+
+# Ignore local development settings
+*.env
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore Django migrations
+**/migrations/
+
+# Ignore local development files
+*.log
+*.pot
+*.pyc
+*.pyo
+__pycache__/
+local_settings.py
+
+# Ignore test database
+test_db.sqlite3
+
+# Ignore frontend build artifacts (modify based on your frontend framework)
+frontend/build/
+frontend/dist/
+
+# Ignore miscellaneous files
+*.swp
+.DS_Store
+Thumbs.db
